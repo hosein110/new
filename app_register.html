@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="http://localhost/marcopolo/public/api/locations/add" method="post" enctype="multipart/form-data">
+    <input name="user_id" value="1">
+    <input name="category_id" value="1">
+    <input name="content" value="content">
+    <input name="price" value="10000">
+    <input name="name" value="place name">
+    <input name="tel" value="021">
+    <input name="date_time" value="12/2/3 23:23">
+    <input name="state_id" value="1">
+    <input name="city_id" value="1">
+    <input name="lat" value="3.331">
+    <input name="long" value="11.2223">
+    <input name="images[]" multiple type="file">
+    <select name="possibilities[]" multiple>
+        <option value="1">metro</option>
+        <option value="2">bus</option>
+        <option value="3">taxi</option>
+    </select>
+
+
+
+    <input name="sunday" value="21-22">
+    <input name="monday" value="21-22">
+    <input name="thursday" value="21-22">
+    <input name="wednesday" value="21-22">
+    <input name="tuesday" value="21-22">
+    <input name="friday" value="21-22">
+    <input name="saturday" value="21-22">
+<input type="submit" value="send">
+</form>
+</body>
+</html>
